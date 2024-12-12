@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+#products {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+#cart {
+    flex: 1;
+}
+
+#cart-items {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
